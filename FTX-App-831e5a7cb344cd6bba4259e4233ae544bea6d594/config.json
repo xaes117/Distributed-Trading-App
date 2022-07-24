@@ -1,0 +1,29 @@
+{
+  "enter-your-api-key-here": {
+    "subaccount": "subaccount-name",
+    "exchange": "FTX",
+    "api-secret": "api-secret",
+    "strategy": {
+      "sell": [
+      ],
+      "buy": [
+        "BTC-PERP",
+        "ETH-PERP",
+        "SOL-PERP"
+      ]
+    },
+    "staked": {
+      "FTT": 0,
+      "SOL": 0
+    },
+    "leverage": 3,
+    "aggressive_buy_enabled": true,
+    "aggressive_sell_enabled": false,
+    "auto_cancel_orders": false,
+    "max_open_orders": 60,
+    "pyramiding_enabled": true,
+    "default_resolution": 900,
+    "cycle_time": 120,
+    "risk_level": "medium"
+  }
+}
